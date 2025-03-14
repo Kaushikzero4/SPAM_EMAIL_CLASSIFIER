@@ -40,8 +40,11 @@ def main():
     elif choice == "About":
         st.subheader("About this App")
         st.write("""
-            This application uses a machine learning model to classify emails as spam or not spam.
+            The Spam Email Classifier helps you identify if an email is spam or not spam.
+            Simply enter the email text, and the app predicts using machine learning whether it is spam or ham.
+            It uses advanced algorithms to analyze the content and give accurate results.
             It utilizes a pre-trained model along with a `CountVectorizer` to process the email text.
+            It provides a quick way to manage and filter the  inbox!
         """)
 
 if __name__ == "__main__":
